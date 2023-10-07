@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(55, 56, 58);
+}
+
+
+.container {
+    background-color: rgb(167, 167, 167);
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+    margin-top: 38px;
+    border: 5px solid rgb(243, 243, 243);
+    padding: 20px 20px 60px 20px;
+}
+
+
+
+
+/* header {
+    font-size: 4vw;
+    font-weight: 5em;
+    text-align: center;
+    margin-top: 40px;
+} */
+
+
+p {
+    font-size: 3vw;
+    font-weight: 2em;
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgb(241, 241, 241, 0.6);
+    border-radius: 30px;
+    margin:auto;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    padding: 26px 8px 30px 8px;
+    width:45%;
+    height: 60%;
+}
+
+
+.turns {
+    font-size: 2vw;
+    font-weight: 2em;
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgba(212, 212, 212, 0.6);
+    border-radius: 30px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 8px 10px 8px;
+    width:45%;
+    height: 70%;
+}
+
+
+.guess {
+    font-size: 1.2vw;
+    font-weight: 2em;
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgba(197, 197, 197, 0.6);
+    border-radius: 30px;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px 8px 10px 8px;
+    width:45%;
+    height: 70%;
+}
+
+
+.keypad {
+    margin: auto;
+    width: 40%;
+}
+
+
+.keypad div button{
+    color: rgb(73, 70, 88);
+    width: 7vw;
+    font-size: 3.2vw;
+    background-color: rgb(224, 224, 224);
+    border-color: rgb(41, 41, 41);
+    border-width: 0.4vw;
+    padding: 12px 3px 12px 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+.row1 {
+    display: flex;
+}
+
+
+.row2 {
+    display: flex;
+}
+
+
+.row3 {
+    display: flex;
+}
+
+
+.row4 {
+    display: flex;
+}
+
+
+#result span{
+    color: rgb(58, 146, 73);
+    font-weight: normal;
+    font-size: 2.5vw;
+}
+
+
+#result div{
+    color: rgb(185, 68, 68);
+    font-weight: normal;
+    font-size: 2.5vw;
+}
